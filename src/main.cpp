@@ -2,7 +2,8 @@
 #include <iostream>
 
 int main() {
-  std::cout << colors::FRED << " FRED " << colors::RS << "\t\t"
+  std::cout << colors::FBLK << " FBLK " << colors::RS << "\t\t"
+            << colors::FRED << " FRED " << colors::RS << "\t\t"
             << colors::FGRN << " FGRN " << colors::RS << "\t\t"
             << colors::FYEL << " FYEL " << colors::RS << "\t\t"
             << colors::FBLE << " FBLE " << colors::RS << "\t\t"
@@ -10,6 +11,7 @@ int main() {
             << colors::FCYN << " FCYN " << colors::RS << "\t\t"
             << colors::FWHT << " FWHT " << colors::RS << "\n"
 
+            << colors::BBLK << " BBLK " << colors::RS << "\t\t"
             << colors::BRED << " BRED " << colors::RS << "\t\t"
             << colors::BGRN << " BGRN " << colors::RS << "\t\t"
             << colors::BYEL << " BYEL " << colors::RS << "\t\t"
